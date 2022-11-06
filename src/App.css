@@ -1,41 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #140b12;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  background-repeat: repeat;
+  max-height: 200rem;
+  position: relative;
+  padding-bottom: 2em;
+  height: 80%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  border-bottom: 2px solid rgb(158, 156, 156);
+  width: 100%;
+  height: 4.5rem;
+  background-color: rgba(0, 0, 1, 0.477);
 }
 
-.card {
-  padding: 2em;
+.navH1 {
+  grid-area: 1 / 2 / 2 / 3;
+  position: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-family: 'Roboto', 'Calibri';
+  font-weight: 700;
+  font-size: 2rem;
+  width: 20rem;
 }
 
-.read-the-docs {
-  color: #888;
+.navBtn1 {
+  grid-area: 1 / 4 / 2 / 5;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  border: 0;
+  width: 8rem;
+  height: 3rem;
+  justify-self: flex-end;
+}
+
+.navBtn2 {
+  grid-area: 1 / 5 / 2 / 6;
+  align-content: flex-end;
+  font-family: 'Roboto', 'Calibri';
+  border: 0;
+  width: 12rem;
+  height: 2.5rem;
+  justify-self: flex-start;
+  margin-right: 1.5rem;
+}
+
+.start {
+  background-color: grey;
+  border: 2px solid black;
+}
+
+.footer {
+  border-top: 2px solid rgb(158, 156, 156);
+  position: flex;
+  margin-bottom: -2em;
+  background-color: rgba(0, 0, 1, 0.477);
+
+  width: 100%;
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+.footer > div > button {
+  background-color: transparent;
+  color: rgb(181, 181, 181);
+  border-right: 2px solid rgb(181, 181, 181);
+  border-radius: 0%;
+  height: 2em;
+  align-content: flex-start;
+}
+
+.footer > p {
+  color: rgb(150, 149, 149);
+  margin-left: 1em;
+}
+
+.socialstore {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  padding: 0rem 1rem;
+  justify-content: space-between;
+}
+
+.social {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.social > a > img {
+  padding: 1em 1em;
+  width: 1.5em;
+  height: 1.5em;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.store {
+  grid-area: 1 / 2 / 2 / 4;
+}
+.store > a > img {
+  width: 8em;
+  height: 2.5em;
+  border-color: transparent;
+  background-color: transparent;
+  padding: 1em 1em;
+  justify-content: end;
 }
