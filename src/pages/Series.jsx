@@ -1,11 +1,12 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
+
 import getData from '../api/getData';
 import Filters from '../components/Filters';
 
 const Series = () => {
   const [series, setSeries] = useState([]);
-  const [filter, setFilter] = useState('');
+  // const [filter, setFilter] = useState('');
 
   useEffect(() => {
     getData('series').then((res) => setSeries(res));
@@ -19,8 +20,8 @@ const Series = () => {
       </div>
       {/* {series.forEach((item) => {
         if (item.releaseYear == filter) { */}
-          <Filters param={series} />;
-        {/* }
+      <Filters param={series} />;
+      {/* }
       })} */}
     </>
   );

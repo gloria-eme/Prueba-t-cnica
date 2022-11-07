@@ -1,5 +1,5 @@
 import './App.css';
-import "../src/pages/seriesmovies.css"
+import '../src/pages/seriesmovies.css';
 
 // import { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom';

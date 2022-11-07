@@ -41,9 +41,8 @@ main {
   font-size: 2rem;
   width: 20rem;
 }
-.navH1:hover{
+.navH1:hover {
   color: rgba(125, 119, 119, 0.966);
-  
 }
 .navBtn1 {
   grid-area: 1 / 4 / 2 / 5;
@@ -65,7 +64,6 @@ main {
   height: 2.5rem;
   justify-self: flex-start;
   margin-right: 1.5rem;
-
 }
 
 .start {
@@ -75,28 +73,29 @@ main {
 
 .divHome {
   display: flex;
-  align-items:center;
+  align-items: center;
   padding: 0rem 1rem;
-  justify-content:center;
+  justify-content: center;
   column-gap: 10rem;
   margin-top: 5rem;
 }
 
-.div2{
+.div2 {
   display: flex;
-  background-color:rgba(202, 196, 196, 0.381);
+  background-color: rgba(202, 196, 196, 0.381);
   width: 8rem;
   height: 12rem;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', 'Calibri';
-  text-transform:uppercase;
+  text-transform: uppercase;
   color: rgb(212, 212, 212);
   font-size: 1.5rem;
-  letter-spacing:.1rem;
-  }
-.div2:hover{
-  border: 1.5px solid rgb(212, 212, 212);;
+  letter-spacing: 0.1rem;
+  border: 1.5px solid rgb(212, 212, 212);
+}
+.div2:hover {
+  border: 2px solid rgb(212, 212, 212);
 }
 
 .footer {
@@ -127,11 +126,10 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr; */
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: 0rem 1rem;
   justify-content: space-between;
 }
-
 
 .social > a > img {
   padding: 1em 1em;
@@ -141,7 +139,6 @@ main {
   background-color: transparent;
 }
 
-
 .store > a > img {
   width: 8em;
   height: 2.5em;
@@ -149,5 +146,5 @@ main {
   background-color: transparent;
   padding: 1em 1em;
   justify-content: end;
-  margin-top:  -1rem;
+  margin-top: -1rem;
 }

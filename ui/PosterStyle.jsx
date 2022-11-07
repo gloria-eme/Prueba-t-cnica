@@ -6,8 +6,8 @@ const PosterStyl = styled.div`
   transition: 0.4s all ease-in-out;
   align-items: center;
   border-radius: 3%;
-  border: .1rem solid transparent;
-  
+  border: 0.1rem solid transparent;
+
   &:hover {
     border: 1.5px solid rgb(240, 238, 238);
   }

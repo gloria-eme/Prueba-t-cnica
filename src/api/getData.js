@@ -1,6 +1,4 @@
 const getData = async (param) => {
-  
-
   try {
     const data = await fetch(`http://localhost:3000/entries?programType=${param}`);
     const res = await data.json();
