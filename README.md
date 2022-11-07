@@ -13,4 +13,4 @@ instrucciones de configuración/ejecución y cualquier prueba u otra documentaci
 - los estados de carga/loading y error me faltaría por crearlos, el filtro por año lo empecé pero me ha salido  Me hubiera gustado también haber hecho la paginación (me ha faltado tiempo para darle una vuelta a ambas cosas).
 
 ¿Qué haría de manera diferente si se le asignara más tiempo?
-Hubiera usado el useContext, pero necesito repasarlo más detenidamente para poder utilizarlo. También me hubiera gustado componetizar más elementos.
+Hubiera usado el useContext, pero necesito repasarlo más detenidamente para poder utilizarlo. También me hubiera gustado componetizar más elementos. He utilizado styled component pero me ha faltado también un poco más de tiempo para darle un uso más funcional y adaptativo.
