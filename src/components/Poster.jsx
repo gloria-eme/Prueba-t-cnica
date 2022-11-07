@@ -1,13 +1,13 @@
 import React from 'react';
-
 import PosterStyle from '../../ui/PosterStyle';
 import Card from './Card';
+import Image from './Image';
 
 const Poster = ({ item }) => {
   return (
     <>
       <PosterStyle key={item.title}>
-        <img className="imgPoster" src={item.images['Poster Art'].url} alt={item.name} />
+        <Image item={ item }/>
         <Card item={item} />
       </PosterStyle>
     </>
@@ -15,3 +15,5 @@ const Poster = ({ item }) => {
 };
 
 export default Poster;
+
+          

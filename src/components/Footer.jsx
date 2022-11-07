@@ -19,12 +19,16 @@ const Footer = () => {
             <img src="../../assets/social/twitter-white.svg" alt="social" width="30px" />
           </a>
           <a href="https://www.instagram.com" target="_blanck">
-            <img src="../../assets/social/instagram-white.svg" alt="social" width="30px" />
+            <img
+              src="../../assets/social/instagram-white.svg"
+              alt="social"
+              width="30px"
+            />
           </a>
         </div>
         <div className="store">
           <a href="https://www.apple.com/es/app-store/" target="_blanck">
-            <img src="../../assets/store/app-store.svg"  alt="store" width="30px" />
+            <img src="../../assets/store/app-store.svg" alt="store" width="30px" />
           </a>
           <a href="https://play.google.com/store/games?hl=es_419&gl=US" target="_blanck">
             <img src="./../assets/store/play-store.svg" alt="store" width="30px" />

@@ -5,10 +5,10 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import App from './App';
-import Home from './pages/home/Home';
-import Movies from './pages/movies/Movies';
-import NotFound from './pages/notFound/404';
-import Series from './pages/series/Series';
+import Home from './pages/Home';
+import Movies from './pages/Movies';
+import NotFound from './pages/404';
+import Series from './pages/Series';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
